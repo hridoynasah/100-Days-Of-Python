@@ -54,3 +54,13 @@ elif user_choice == 2:
         print("You Win!")
     elif computer_choice == 0:
         print("Computer Win!")
+print("""
+              \\'-=======-'/
+              _|   .=.   |_
+             ((|   ---  |))
+              \|   /|\   |/
+               \__ '`' __/
+                 _`) (`_
+               _/_______\_
+              /___________\\""")
+print("Congratulations.")
