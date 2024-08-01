@@ -1,0 +1,6 @@
+What I learned today?
+# Randomisation.
+# List.
+# Nested list or 2d list.
+# Split a string and convert it into a list.Using [ str.split("") ] function.
+# Random choice using [ random.choice() ] function.
