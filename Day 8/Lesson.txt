@@ -1,0 +1,10 @@
+What I learned today?
+Four types of functions:
+1. No return, No parameters
+2. Has parameter but return nothing
+3. No parameter but return something
+4. Has parameters and returns something
+Parameters, Arguments, Keyword Arguments.
+### Final project: Caesar Cipher
+### Index function ->list.index(parameter) returns the index from a list
+### string.lower() -> returns a copy of string where all alphabets are in lower
