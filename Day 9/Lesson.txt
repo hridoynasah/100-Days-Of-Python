@@ -1,0 +1,4 @@
+What I learned today?
+# Dictionaries & Nesting
+# Dictionaries has two properties:
+ -> Key & Value

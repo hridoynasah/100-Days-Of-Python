@@ -1,0 +1,39 @@
+In Python, mutable and immutable data types differ in their ability to be modified after creation:
+
+### Mutable Data Types: List, Dictionary, Set
+List: A collection of ordered items that can be changed (e.g., `append`, `remove`).
+  my_list = [1, 2, 3]
+  my_list.append(4)  # Now my_list is [1, 2, 3, 4]
+
+Dictionary: A collection of key-value pairs that can be changed (e.g., adding, updating, or removing key-value pairs).
+  my_dict = {'a': 1, 'b': 2}
+  my_dict['c'] = 3  # Now my_dict is {'a': 1, 'b': 2, 'c': 3}
+
+Set: An unordered collection of unique items that can be changed (e.g., adding or removing items).
+  my_set = {1, 2, 3}
+  my_set.add(4)  # Now my_set is {1, 2, 3, 4}
+
+Bytearray: A mutable sequence of bytes.
+  my_bytearray = bytearray(b'hello')
+  my_bytearray[0] = 72  # Now my_bytearray is bytearray(b'Hello')
+
+### Immutable Data Types: String, Tuple
+String: A sequence of characters that cannot be changed.
+  my_string = "hello"
+  # my_string[0] = "H"  # This would raise an error
+  new_string = "H" + my_string[1:]  # Create a new string "Hello"
+
+Tuple: An ordered collection of items that cannot be changed.
+  my_tuple = (1, 2, 3)
+  # my_tuple[0] = 4  # This would raise an error
+  new_tuple = (4,) + my_tuple[1:]  # Create a new tuple (4, 2, 3)
+
+Frozenset: An immutable version of a set.
+
+  my_frozenset = frozenset([1, 2, 3])
+  # my_frozenset.add(4)  # This would raise an error
+
+Bytes: An immutable sequence of bytes.
+  my_bytes = b'hello'
+  # my_bytes[0] = 72  # This would raise an error
+  new_bytes = b'H' + my_bytes[1:]  # Create a new bytes object b'Hello'
