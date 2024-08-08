@@ -23,7 +23,7 @@ print(programming_dictionary["Bug"])
 for key in programming_dictionary:
     print(key)
 # Loop through a dictionary: value
-for val in programming_dictionary:
-    print(programming_dictionary[val])
+for key in programming_dictionary:
+    print(programming_dictionary[key])
 
 

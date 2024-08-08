@@ -1,4 +1,4 @@
-import gui
+import art
 import os
 import platform
 bid_list = []
@@ -25,7 +25,7 @@ def bid_winner():
 
     print(f"Congratulations {winner_name}, you are the winner, with a bid of ${winner_bid}.")
 
-print(gui.logo)
+print(art.logo)
 print("Welcome to the secret auction program.")
 while True:
     name = input("What is your name ?: ")
@@ -34,7 +34,7 @@ while True:
     decision = input("Are there any other bidders? y/n: ")
     clear_console()
     if decision == 'y':
-        print(gui.logo)
+        print(art.logo)
         print("Welcome to the secret auction program.")
         continue
     else:
