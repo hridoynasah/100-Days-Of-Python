@@ -1,0 +1,6 @@
+What did I learn today?
+# Function with return.
+# str.capitalize() method -> Makes the first letter uppercase
+# str.title() method -> Makes all word's letter uppercase
+# Docstring
+# Project : Calculator
